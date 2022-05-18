@@ -1,6 +1,6 @@
 # html-css-js-project
 
-This is a [Login validation form]([https://ruchibadkur.github.io/JS-Mini-Project---1---JavaScript-Mini-Project---se2a8ehdj5fs/]) using html and css and javascript. 
+This is a [Login validation form](https://ruchibadkur.github.io/JS-Mini-Project---1---JavaScript-Mini-Project---se2a8ehdj5fs/) using html and css and javascript. 
 
 ## Table of contents
 
@@ -19,8 +19,8 @@ This is a [Login validation form]([https://ruchibadkur.github.io/JS-Mini-Project
 
 ### The challenge
 
--  **Login Validation Form - 
--  
+-  Login Validation Form  
+ 
 ### Links
 
 - Live Site URL: [https://ruchibadkur.github.io/JS-Mini-Project---1---JavaScript-Mini-Project---se2a8ehdj5fs/](https://ruchibadkur.github.io/JS-Mini-Project---1---JavaScript-Mini-Project---se2a8ehdj5fs/)
