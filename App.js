@@ -7,6 +7,8 @@ function validate(){
     if(mail=="" || !mail.value.match(validRegex)){
       document.getElementsByTagName("small")[0].innerHTML = "Please enter a valid e-mail address";
       return false;
+    }else{
+        document.getElementsByTagName("small")[0].innerHTML = "";
     }
   
    if(pass =="" ){
