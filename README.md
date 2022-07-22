@@ -30,40 +30,17 @@ This is a [Login validation form](https://ruchibadkur.github.io/JS-Mini-Project-
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom propertie
+- CSS custom properties
 - Javascript
 
 ### What I learned
 
-My your major learnings while working through this project are:
+My major learnings while working through this project are:
 
-```js
-    function validate(){
-    var mail = document.getElementById("maill");
-    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+- Email and Password validation using Regex
 
-    var pass = document.getElementById("passs").value;
-    if(mail=="" || !mail.value.match(validRegex)){
-      document.getElementsByTagName("small")[0].innerHTML = "Please enter a valid e-mail address";
-      return false;
-    }
-    if(pass =="" ){
-      document.getElementsByTagName("small")[1].innerHTML = " You must enter password";
-      return false;
-   }
-   else{
-    document.getElementsByTagName("small")[0].innerHTML = "";
-    document.getElementsByTagName("small")[1].innerHTML = "";
-      
-   }
-}
-```
+
 ```css
-    display: grid;
-    place-items: center center;
-    text-align: center;
-    background-size: cover;
-    
     background-color: rgba(197, 173, 173, 0);
     backdrop-filter: blur(5px);
 ```
