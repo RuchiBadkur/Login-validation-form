@@ -3,6 +3,11 @@ function validate(){
     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     var pass = document.getElementById("passs").value;
+
+    if((mail=="" || !mail.value.match(validRegex)) && pass =="" ){
+      document.getElementsByTagName("small")[0].innerHTML = "Please enter a valid e-mail address";
+      document.getElementsByTagName("small")[1].innerHTML = " You must enter password";
+    }
   
     if(mail=="" || !mail.value.match(validRegex)){
       document.getElementsByTagName("small")[0].innerHTML = "Please enter a valid e-mail address";
